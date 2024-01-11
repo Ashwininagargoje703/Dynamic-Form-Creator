@@ -29,7 +29,7 @@ function Element({ labelName, element }) {
   } else {
     return (
       <>
-        <label htmlFor={labelName}>{labelName}</label>
+        <label htmlFor={labelName}>{labelName} : </label>
         <input
           type={element.type}
           id={labelName}

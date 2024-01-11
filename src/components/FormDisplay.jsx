@@ -14,7 +14,6 @@ function FormDisplay() {
 
   const submit = (e) => {
     e.preventDefault();
-    // Implement your form submission logic here
   };
 
   const isFormEmpty = data.length === 0;
